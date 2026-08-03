@@ -121,6 +121,4 @@ notebooks/
 This project was created as part of a portfolio demonstration for data analysis and visualization work.
 
 
-For questions or feedback about this project, please refer to the project documentation or contact the repository maintainer.
-
 The visualizations above provide a comprehensive overview of the customer churn analysis, highlighting key patterns and insights that can inform business decisions.
