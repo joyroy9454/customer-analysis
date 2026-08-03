@@ -105,8 +105,8 @@ customer-churn-analysis/
 │   └── churn_by_subscription_plan.png
 │
 ├── data/
-│   ├── Customer-churn.csv
-│   └── Customer-churn-cleaned.csv
+│   ├── customer churn.csv
+│   └── customer_churn_cleaned.csv
 │
 ├── reports/
 │   └── customer_churn_report.md
