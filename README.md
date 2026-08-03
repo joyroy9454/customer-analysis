@@ -70,7 +70,7 @@ This project requires:
 
 Key visualizations created for this project include:
 
-![Age Distribution](images/age_distribution.png)
+![Age Distribution](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/output.png)
 
 *Age Distribution of Customers: Shows the demographic breakdown of the customer base.*
 
