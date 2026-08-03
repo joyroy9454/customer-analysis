@@ -1,14 +1,14 @@
-# Customer Churn Analysis - Basic Portfolio Project
+# Customer Churn Analysis using Python and Matplotlib
 
-This repository contains a basic analysis of customer churn data for a telecommunications company. The project demonstrates data cleaning, exploratory analysis, and visualization skills.
+This repository presents an exploratory data analysis (EDA) project on customer churn using Python, Pandas, NumPy, and Matplotlib. The project focuses on cleaning raw customer data, exploring customer characteristics, and visualizing churn-related patterns to better understand customer behavior.
 
 ## Project Overview
 
-This project analyzes customer churn data to identify patterns and factors that influence whether customers leave (churn) or stay with the service. The analysis includes data cleaning and basic visualization.
+Customer churn is one of the biggest challenges for subscription-based businesses. This project demonstrates a complete beginner-friendly workflow including data cleaning, exploratory data analysis, customer behavior analysis, visualization, and business insights.
 
 ## Business Problem
 
-Telecommunication companies face significant revenue loss due to customer churn. Understanding why customers leave and identifying at-risk customers is crucial for developing effective retention strategies and maintaining profitability.
+Customer churn can reduce business growth and increase customer acquisition costs. By exploring customer demographics and behavior, businesses can better understand factors related to churn and improve customer retention strategies.
 
 ## Dataset Description
 
@@ -21,15 +21,16 @@ The dataset contains customer information from a telecommunications company, inc
 
 ## Data Cleaning Summary
 
-The original dataset required extensive cleaning:
-
-- Standardized gender values (Male, Female, Non-Binary, Unknown)
-- Normalized region names to consistent capitalization
-- Cleaned subscription plan categories (Basic, Pro, Plus)
-- Standardized payment method descriptions
-- Converted numeric fields to proper types
-- Handled missing values in age and other columns
-
+- Filled missing values in **Payment Method**
+- Replaced unrealistic age values using the median age
+- Filled missing values in the **Age** column
+- Removed invalid and extreme values from **Monthly Spend**
+- Corrected negative values in **Customer Service Calls**
+- Standardized **Region** and **Subscription Plan** names
+- Removed duplicate records
+- Converted categorical columns to appropriate data types
+- Saved the cleaned dataset for further analysis and visualization
+- 
 ## Installation and Setup
 
 ### Requirements
@@ -39,6 +40,7 @@ This project requires:
 - pandas
 - matplotlib
 - numpy
+- Jupyter Notebook
 
 ### Installation Steps
 
@@ -55,8 +57,8 @@ This project requires:
 
 3. Open:
    ```bash
-   notebooks/01_Data_Cleaning.ipynb
-   notebooks/02_Customer_Churn_Analysis.ipynb
+   src/01_Data_Cleaning.ipynb
+   src/02_Customer_Churn_Analysis.ipynb
    ```
 
 ## Visualizations
