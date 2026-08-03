@@ -53,7 +53,7 @@ This project requires:
    pip install pandas matplotlib seaborn NumPy
    ```
 
-3. Run the analysis:
+3. Open:
    ```bash
    notebooks/01_Data_Cleaning.ipynb
    notebooks/02_Customer_Churn_Analysis.ipynb
@@ -83,7 +83,7 @@ Key visualizations created for this project include:
 
 *Monthly Spend Distribution: Visualization of customer spending patterns.*
 
-![Churn by Age] (https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/churn_by_age.png)
+![Churn by Age](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/churn_by_age.png)
 
 *Churn by Age: Comparative analysis of churn rates across different Ages. *
 
@@ -95,25 +95,33 @@ Key visualizations created for this project include:
 
 ```
 customer-churn-analysis/
+├── Images/
+│   ├── age_distribution.png
+│   ├── gender_distribution.png
+│   ├── subscription_distribution.png
+│   ├── payment_method_distribution.png
+│   ├── monthly_spend_distribution.png
+│   ├── churn_by_age.png
+│   └── churn_by_subscription_plan.png
+│
 ├── data/
 │   ├── Customer-churn.csv
 │   └── Customer-churn-cleaned.csv
-notebooks/
+│
+├── reports/
+│   └── customer_churn_report.md
+│
+|
+src/
 │   ├── 01_Data_Cleaning.ipynb
 │   └── 02_Customer_Churn_Analysis.ipynb
-├── images/
-│   ├── age_distribution.png         # Age distribution chart
-│   ├── gender_distribution.png      # Gender distribution chart
-│   ├── subscription_distribution.png # Subscription plan pie chart
-│   ├── payment_method_distribution.png # Payment method distribution
-│   ├── monthly_spend_distribution.png # Monthly spend histogram
-│   ├── churn_by_Age.png           # Churn by Age analysis
-│   └── churn_by_subscription_plan.png # Churn by subscription plan
+|
 ├── reports/
-│   └── customer_churn_report.md      # Detailed analysis report
-├── README.md                        # Project documentation
-├── requirements.txt                 # Python dependencies
-└── LICENSE                          # Project license
+│   └── customer_churn_report.md    
+│
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 
