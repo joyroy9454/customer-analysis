@@ -85,7 +85,7 @@ Key visualizations created for this project include:
 
 ![Churn by Age](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/churn_by_age.png)
 
-*Churn by Age: Comparative analysis of churn rates across different Ages. *
+*Churn by Age: Comparative analysis of churn rates across different Ages.*
 
 ![Churn by Subscription Plan](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/churn_by_subscription_plan.png)
 
