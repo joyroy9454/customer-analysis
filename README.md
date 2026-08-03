@@ -30,7 +30,7 @@ The dataset contains customer information from a telecommunications company, inc
 - Removed duplicate records
 - Converted categorical columns to appropriate data types
 - Saved the cleaned dataset for further analysis and visualization
-- 
+  
 ## Installation and Setup
 
 ### Requirements
