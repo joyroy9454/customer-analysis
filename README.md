@@ -38,7 +38,6 @@ This project requires:
 - Python 3.8+
 - pandas
 - matplotlib
-- seaborn
 - numpy
 
 ### Installation Steps
@@ -49,52 +48,46 @@ This project requires:
    cd customer-churn-analysis
    ```
 
-2. Create and activate a virtual environment:
+2. Install required packages:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install pandas matplotlib seaborn NumPy
    ```
 
-3. Install required packages:
+3. Run the analysis:
    ```bash
-   pip install pandas matplotlib seaborn numpy
-   ```
-
-4. Run the analysis:
-   ```bash
-   python src/cleaning.py
-   python src/visualization.py
+   notebooks/01_Data_Cleaning.ipynb
+   notebooks/02_Customer_Churn_Analysis.ipynb
    ```
 
 ## Visualizations
 
 Key visualizations created for this project include:
 
-![Age Distribution](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/output.png)
+![Age Distribution](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/age_distribution.png)
 
 *Age Distribution of Customers: Shows the demographic breakdown of the customer base.*
 
-![Gender Distribution](images/gender_distribution.png)
+![Gender Distribution](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/gender_distribution.png)
 
 *Gender Distribution of Customers: Break down of customers by gender identity.*
 
-![Subscription Plan Distribution](images/subscription_distribution.png)
+![Subscription Plan Distribution](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/subscription_distribution.png)
 
 *Subscription Plan Distribution: Proportion of customers across different subscription tiers.*
 
-![Payment Method Distribution](images/payment_method_distribution.png)
+![Payment Method Distribution](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/payment_method_distribution.png)
 
 *Payment Method Distribution: Analysis of how customers pay for the service.*
 
-![Monthly Spend Distribution](images/monthly_spend_distribution.png)
+![Monthly Spend Distribution](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/monthly_spend_distribution.png)
 
 *Monthly Spend Distribution: Visualization of customer spending patterns.*
 
-![Churn by Gender](images/churn_by_gender.png)
+![Churn by Age] (https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/churn_by_age.png)
 
-*Churn by Gender: Comparative analysis of churn rates across different genders.*
+*Churn by Age: Comparative analysis of churn rates across different Ages. *
 
-![Churn by Subscription Plan](images/churn_by_subscription_plan.png)
+![Churn by Subscription Plan](https://github.com/joyroy9454/customer-churn-analysis/blob/main/Images/churn_by_subscription_plan.png)
 
 *Churn by Subscription Plan: How churn varies across different subscription tiers.*
 
@@ -103,46 +96,30 @@ Key visualizations created for this project include:
 ```
 customer-churn-analysis/
 ├── data/
-│   ├── original_dataset.csv          # Original customer data
-│   └── cleaned_dataset.csv          # Cleaned and processed data
-├── src/
-│   ├── cleaning.py                  # Data cleaning and preprocessing script
-│   └── visualization.py             # Data visualization and analysis script
+│   ├── Customer-churn.csv
+│   └── Customer-churn-cleaned.csv
+notebooks/
+│   ├── 01_Data_Cleaning.ipynb
+│   └── 02_Customer_Churn_Analysis.ipynb
 ├── images/
 │   ├── age_distribution.png         # Age distribution chart
 │   ├── gender_distribution.png      # Gender distribution chart
 │   ├── subscription_distribution.png # Subscription plan pie chart
 │   ├── payment_method_distribution.png # Payment method distribution
 │   ├── monthly_spend_distribution.png # Monthly spend histogram
-│   ├── churn_by_gender.png           # Churn by gender analysis
+│   ├── churn_by_Age.png           # Churn by Age analysis
 │   └── churn_by_subscription_plan.png # Churn by subscription plan
 ├── reports/
 │   └── customer_churn_report.md      # Detailed analysis report
 ├── README.md                        # Project documentation
 ├── requirements.txt                 # Python dependencies
-├── .gitignore                       # Git ignore patterns
 └── LICENSE                          # Project license
 ```
 
-## Files Overview
 
-- **cleaning.py**: Script to clean and preprocess the raw customer data
-- **visualization.py**: Complete visualization suite showing key patterns and insights
-- **customer_churn_report.md**: Detailed analysis and business recommendations
-- **requirements.txt**: Python package dependencies
-
-## Project Status
-
-✅ Data cleaning completed  
-✅ Visualizations generated  
-✅ Business insights documented  
-✅ Portfolio-ready structure created  
 
 This project was created as part of a portfolio demonstration for data analysis and visualization work.
 
-![Age Distribution](images/age_distribution.png)
-
-## Contact
 
 For questions or feedback about this project, please refer to the project documentation or contact the repository maintainer.
 
