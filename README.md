@@ -109,10 +109,6 @@ customer-churn-analysis/
 ├── data/
 │   ├── customer churn.csv
 │   └── customer_churn_cleaned.csv
-│
-├── reports/
-│   └── customer_churn_report.md
-│
 |
 src/
 │   ├── 01_Data_Cleaning.ipynb
