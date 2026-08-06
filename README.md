@@ -46,7 +46,7 @@ This project requires:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/customer-churn-analysis.git
+   git clone https://github.com/joyroy9454/customer-churn-analysis.git
    cd customer-churn-analysis
    ```
 
